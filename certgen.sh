@@ -53,12 +53,12 @@ show_help() {
 ╚██████╗███████╗██║  ██║   ██║   ╚██████╔╝███████╗██║ ╚████║
  ╚═════╝╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═══╝
 
-            CertGen - TLS Certificate Generator
+            CertGen - Self Signed SSL Certificate Generator
 
 
 Usage: ${SCRIPT_NAME} [options] <domain> [wildcard]
 
-Generate a Root CA and SSL certificate for Nginx Proxy Manager.
+Generate a Root CA and Self Signed SSL certificate.
 Files are created relative to the current directory.
 
 Arguments:
@@ -135,7 +135,7 @@ echo -e "
 ╚██████╗███████╗██║  ██║   ██║   ╚██████╔╝███████╗██║ ╚████║
  ╚═════╝╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═══╝
 
-          CertGen - TLS Certificate Generator"
+        CertGen - Self Signed SSL Certificate Generator"
 
 #############################################
 # --force-new-ca: Backup old CA
